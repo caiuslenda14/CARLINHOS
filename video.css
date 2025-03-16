@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(carloelula.png);
+    background-size: 100%;
+}
+video{
+    margin: 50px 300px 0 -200px;
+}

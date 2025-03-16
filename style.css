@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+.sindrome{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    span{
+        color: white;
+        font-weight: 1000;
+    }
+}
+.container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.text{
+    font-size: 30px;
+    font-family:cursive;
+    img{
+        margin-top: 15px;
+        width: 200px;
+        height: 200px;
+    }
+    span{
+        font-weight: 1000;
+    }
+    button{
+        font-weight: 500;
+        color: white;
+        font-size: 50px;
+        background-color: blue;
+        padding: 200px 40px 0 0;
+    }
+    button:active{
+        background-color: rgb(0, 183, 255);
+    }
+}
+.lado{
+    margin-left: 20px;
+    img{
+        width: 400px;
+        height: 400px;
+    }
+}
